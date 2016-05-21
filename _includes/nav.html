@@ -10,7 +10,7 @@
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
-					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					<!-- <li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li> -->
 					{% if site.email %}<li>
                         <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                     </li>{% endif %}
@@ -82,7 +82,7 @@
                     </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
-			<li>
+			<!-- <li>
 				<a href="#">Posts</a>
 				<ul class="dl-submenu">
 					<li><a href="{{ site.url }}/posts/">All Posts</a></li>
@@ -96,6 +96,6 @@
 		        {% assign domain = site.url %}
 		    {% endif %}
 		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
-		  {% endfor %}
+		  {% endfor %} -->
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->
