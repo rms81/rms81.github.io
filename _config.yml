@@ -1,14 +1,14 @@
 # Site
 title:              umprogramador.net
-bio:                "Will be back soon. Jekyll powered..."
-description:        "Will be back soon. Jekyll powered..."
+bio:                "Me, 'The learning addict'"
+description:        "About .Net development."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/umprogrmadorFoto.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                "rms81.github.io"
+url:                "https://www.umprogramador.net"
 base_url:           ""
 
 # Jekyll
