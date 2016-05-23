@@ -2,6 +2,7 @@
 layout: post
 title: "Write Code for Humans…"
 date: "2015-08-30 18:21:35 +0100"
+comments: false
 excerpt: "...most of the time we spend programming is reading code. Either code written by somebody else, code we've written months ago, or the function that we just wrote. Therefore, all the time spent trying to improve the quality of the code we write is time we save when we are going to read it."
 ---
 

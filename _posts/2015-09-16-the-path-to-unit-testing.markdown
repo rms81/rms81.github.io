@@ -2,6 +2,7 @@
 layout: post
 title: "The path to unit testing"
 date: "2015-09-16 07:48:38 +0100"
+comments: false
 excerpt: "...Forget the 'right' way. Just keep in mind the problems that unit testing is trying to solve. Focus on the 'why' and not so much on the 'how'."
 ---
 

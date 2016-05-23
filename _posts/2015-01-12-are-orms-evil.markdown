@@ -2,6 +2,7 @@
 layout: post
 title: "Are ORMs Evil?"
 date: "2015-01-12 09:27:04 +0100"
+comments: false
 excerpt: "ORMs can really make our lives much easier, they can get and store our entities and can even seed our database, like magic... with a price."
 ---
 
