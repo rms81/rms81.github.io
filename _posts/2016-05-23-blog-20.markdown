@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Blog 2.0"
+date: "2016-05-23 22:58:15 +0100"
+---
+
+More than 2 years after the first post, it's time to change. Here is the new version of the blog.
+I joined the static site generators movement, and this version of the blog is [Jekyll](https://jekyllrb.com/) powered and hosted on GitHub using [GitHub Pages](https://pages.github.com/).
+Found a [theme](http://taylantatli.me/Moon/moon-theme/) that I liked and here we are.
+Still need to make some adjustments, and I hope to write about all the process of creating a blog with Jekyll in a few days.
+  
