@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Why OAuth"
+date: "2016-11-06 19:22:15 +0100"
+comments: false
+excerpt: "As programmers oriented for the Web developing Web Applications, Mobile Applications or APIs, we have a responsibility to work to develop a better web. Is it a great responsibility? Yes. But it's ours and we can't run away from it.
+One of the critical points in this great task is, no doubt, authorization/authentication."
+---
+
+Why we should never hesitate when we can use OAuth
+--------------
+
+As programmers oriented for the Web developing Web Applications, Mobile Applications or APIs, we have a responsibility to work to develop a better web. Is it a great responsibility? Yes. But it's ours and we can't run away from it.
+One of the critical points in this great task is, no doubt, authorization/authentication.
+As programmer, no matter which side of the workflow we are in, if we can use OAuth, we have the responsibility to use it.
+I have a hard time accepting the argument that a certain functionality is not implemented because it is difficult to implement, mainly when we talk about security. It's like somebody building a house with no roof because it's too much work.
+
+Of course, it's apparently easier to keep the passwords in plain text in the data base, and as somebody said a couple of days ago as a joke, "it's way easier to debug".
+
+In fact, OAuth is not an easy protocol to understand. There are some nuances and 
+specificities, but reading the specification and doing some extra investigation, everything makes more sense and the advantages worth the time spent with implementation difficulties. 
+
+One of the main advantages of using protocols that reduce the need of credential introduction, like OAuth, is that they help to fight the trivialization of credential introduction, in other words, if in each website/application the user must constantly use credentials, this process will be more and more automated, getting to a point where there is no need to even pay attention to the process, being more vulnerable to attacks with phishing or similar.
+
+Another advantage is related to password security. A lot of people try to use one password for different services. If one of these services is compromised and the credentials stolen, the user account in any other services is also vulnerable. Well, if less entities have our password then we have less probability of it being compromised.
+
+From the perspective of who develops, the advantages vary depending on the role you find yourself in. In other words, if you take the role of who wants to access the user's data (client application) or the role of who owns the user's data (OAuth provider).
+
+On the client application side the biggest advantage is the fact that you don't have to keep the user's credentials, not even have access to it, because even if you are the target of some sort of attack, you'll be sure that your user's credentials won't be compromised.
+
+On the side of the user's data owner (OAuth provider) there is a big advantage of being able to define which are the data layers that a certain application has access to. A certain application will only be able to access the user's email, while another one, for example, a list of favorite products. This access authorization of each one of the data layers must be given by the user. 
+Another great advantage is related to the fact that the user doesn't have to introduce his/her credentials in third party applications, increasing data security.
+
+Thus, I consider the use of Authentication/Authorization protocols like OAuth really important, but if you still prefer the username/password approach, at least **don't keep the password in plain text!**
+
+  
